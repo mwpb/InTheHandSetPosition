@@ -17,18 +17,27 @@ namespace InTheHandSetPosition
             //InitializeComponent();
             var stack = new StackLayout();
             
-            mediaView.HeightRequest = 500.0;
-            mediaView.WidthRequest = 500.0;
-            mediaView.Source = new Uri("https://raw.githubusercontent.com/mediaelement/mediaelement-files/master/big_buck_bunny.mp4");
-            mediaView.AreTransportControlsEnabled = true;
+            mediaView.HeightRequest = 70.0;
+            mediaView.WidthRequest = 70.0;
+            //mediaView.Source = new Uri("https://raw.githubusercontent.com/mediaelement/mediaelement-files/master/big_buck_bunny.mp4");
+            //mediaView.AreTransportControlsEnabled = true;
             var button = new Button();
             button.Text = "Set Position";
             button.Clicked += Button_Clicked;
+            var loadButton = new Button();
+            loadButton.Text = "Load Video";
+            loadButton.Clicked += LoadButton_Clicked;
             
             stack.Children.Add(mediaView);
             stack.Children.Add(button);
+            stack.Children.Add(loadButton);
 
             Content = stack;
+        }
+
+        private void LoadButton_Clicked(object sender, EventArgs e)
+        {
+            mediaView.Source = new Uri("https://raw.githubusercontent.com/mediaelement/mediaelement-files/master/big_buck_bunny.mp4");
         }
 
         private void Button_Clicked(object sender, EventArgs e)
