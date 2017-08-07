@@ -53,11 +53,11 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="InTheHand.Forms, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\InTheHand.Forms.1.0.2017.0718\lib\MonoAndroid10\InTheHand.Forms.dll</HintPath>
+      <HintPath>..\..\packages\InTheHand.Forms.1.0.2017.0804\lib\MonoAndroid10\InTheHand.Forms.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="InTheHand.Forms.Platform.Android, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\InTheHand.Forms.1.0.2017.0718\lib\MonoAndroid10\InTheHand.Forms.Platform.Android.dll</HintPath>
+      <HintPath>..\..\packages\InTheHand.Forms.1.0.2017.0804\lib\MonoAndroid10\InTheHand.Forms.Platform.Android.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Mono.Android" />

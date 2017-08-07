@@ -55,7 +55,7 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="InTheHand.Forms, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\InTheHand.Forms.1.0.2017.0718\lib\portable-net45+netcore45+wpa81+wp8\InTheHand.Forms.dll</HintPath>
+      <HintPath>..\..\packages\InTheHand.Forms.1.0.2017.0804\lib\portable-net45+netcore45+wpa81+wp8\InTheHand.Forms.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Xamarin.Forms.Core, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
