@@ -1,6 +1,6 @@
 ﻿{
   "dependencies": {
-    "InTheHand.Forms": "1.0.2017.804",
+    "InTheHand.Forms": "1.0.2017.810",
     "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.3",
     "Xamarin.Forms": "2.3.4.247"
   },
